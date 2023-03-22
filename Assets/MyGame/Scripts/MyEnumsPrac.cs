@@ -12,7 +12,7 @@ public enum State
 public class MyEnumsPrac : MonoBehaviour
 {
     State myState;
-    // Start is called before the first frame update
+
     void Start()
     {
         myState = State.Done;
@@ -41,12 +41,7 @@ public class MyEnumsPrac : MonoBehaviour
         {
             Debug.Log(State.Cancle + " " + (int)State.Cancle);
         }
-        //Beides das gleiche
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
